@@ -29,9 +29,9 @@ function whoWins (isThereKryptonite, enemyName) {
     
     else 
         isThereKryptonite = false;
-}
-    console.log ( whoWins ( isThereKryptonite, enemies [i] ));
 
+    console.log (whoWins(isThereKryptonite, enemies [i]));
+}
 
 function howAttractedIsLoisLaneToMe () {
     // 1 is not at all attracted, 10 is "super" attracted...
@@ -50,10 +50,8 @@ function howAttractedIsLoisLaneToMe () {
     var phoneBoothQuickChange = Math.random ();
 
     if (phoneBoothQuickChange >= 0.5)
+    clarkKent = false;
+    Superman = true;
 
-        clarkKent = false;
-        Superman = true;
-
-        console.log(" Now I'm Superman! ");
-    
+    console.log(" Now I'm Superman! ");
 }
