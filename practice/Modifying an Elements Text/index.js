@@ -13,8 +13,13 @@
  * 3. Change the paragraph element's text to be the same as the text inside the h1
  */
 
-var welcome = {message: 'Welcome To My World!'}
-welcome.message = 'Enjoy, Alosha!'
+// var welcome = {message: 'Welcome To My World!'}
+// welcome.message = 'Enjoy, Alosha!'
 
-console.log(welcome)
+// console.log(welcome)
 
+var text = document.querySelector("#header").textContent
+    document.querySelector("#paragraph").textContent = text
+
+var message = ('You are doing GREAT!')      
+    console.log(message)
