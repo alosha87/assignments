@@ -1,7 +1,7 @@
 var newLi = document.createElement("li")
 newLi.textContent = "3"
 var myList = document.getElementById("my-list")
-myList.prepend(newLi)
+myList.append(newLi)
 
 /**
  * Challenge:
