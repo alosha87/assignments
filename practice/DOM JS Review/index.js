@@ -25,9 +25,6 @@
 // var header = document.querySelector("#header2")
 // console.log(header)
 
-var navBar = document.querySelectorAll("ul#navbar > li")
-console.log(Array.from(navBar))
-
-for (var i = 0; i< navBar.length; i++) {
-    console.log(navBar[i])
-}
+var uList = document.querySelectorAll("ul#navbar > li");
+    
+var uList = Array.from(uList)
