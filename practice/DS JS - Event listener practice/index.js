@@ -1,5 +1,5 @@
 //Mouse Over and Out Function
-document.getElementById("demo").addEventListener("mouseover", mouseOver);
+document.getElementById("demo").addEventListener("mouseover", mouseOver); 
     function mouseOver() {
         document.getElementById("demo").style.backgroundColor = "Blue";
     }
@@ -28,6 +28,6 @@ document.getElementById("demo").addEventListener("dblclick", ondblclick);
     }
 
 // Mouse Scroll is used somewhere in the window
-    window.onwheel = function() {
+window.onwheel = function() {
         document.getElementById("demo").style.backgroundColor = "Orange";
     }
