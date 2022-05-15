@@ -11,4 +11,9 @@ var third = document.getElementById("txtThree")
 var fourth = document.getElementById("txtFour")
     fourth.textContent = "Keep the good work!";
 
-// Clear Button
+// Clear Messages
+var clear = document.getElementById("clear-button")
+    clear.addEventListener("click", clearMessages);
+function clearMessages() {
+  document.getElementById("allMessages").textContent = ""
+}
