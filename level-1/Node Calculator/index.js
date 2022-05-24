@@ -16,6 +16,7 @@ switch(operator) {
     case '+':
         result = parseInt(num1) + parseInt(num2)
         console.log(`${num1} + ${num2} = ${result}`);
+        // console.log(num1 + " + " + num2 + " = " + result)
         break;
     case '-':
         result = parseInt(num1) - parseInt(num2)
