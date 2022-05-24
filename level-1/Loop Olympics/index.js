@@ -102,16 +102,55 @@ const peopleArray = [
 
 
 //3. Write a loop that pushes every other name to an array starting with the first person, in this case "Harrison Ford", and every other occupation to *another* array starting with, in this case, "Singer".
-    var names = []
-    var occupations = []
+    // var names = []
+    // var occupations = []
     
-    for (i = 0; i < peopleArray.length; i += 2) {
-          names.push(peopleArray[i].name)
-      }
-    for (j = 1; j < peopleArray.length; j += 2){
-      occupations.push(peopleArray[j].occupation)
-    }
-      console.log(names) //array 1
-      console.log(occupations)  //array 2
+    // for (i = 0; i < peopleArray.length; i += 2) {
+    //       names.push(peopleArray[i].name)
+    //   }
+    // for (j = 1; j < peopleArray.length; j += 2){
+    //   occupations.push(peopleArray[j].occupation)
+    // }
+    //   console.log(names) //array 1
+    //   console.log(occupations)  //array 2
 
 //Think about what good names for the arrays would be. Since it will be an array of each name or occupation, the plurals of name and occupation would be appropriate.
+
+
+//___________________________________________________________________________
+//Gold Medal
+// 1. Create an array that mimics a grid like the following using nested `for` loops:
+
+// ```
+// [[0, 0, 0],
+// [0, 0, 0],
+// [0, 0, 0]]
+
+// ```
+
+// 2.Create an array that mimics a grid like the following using nested `for` loops:
+
+// ```
+// [[0, 0, 0],
+// [1, 1, 1],
+// [2, 2, 2]]
+
+// ```
+
+// 3.Create an array that mimics a grid like the following using nested `for` loops:
+
+// ```
+// [[0, 1, 2],
+// [0, 1, 2],
+// [0, 1, 2]]
+
+// ```
+
+// 4. Given a grid like the previous ones, write a nested `for` loop that would change every number to an x.
+
+// ```
+// var grid = [["x", ...],
+//             ["x", ...],
+//             ["x",...], ...]
+
+// ```
