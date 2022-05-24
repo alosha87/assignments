@@ -49,11 +49,27 @@
 
 
 //3. Write a for loop that will push every other fruit to an array.`const fruit = ["banana", "orange", "apple", "kiwi", "pear", "peach"]` 
-    const fruit = ["banana", "orange", "apple", "kiwi", "pear", "peach"]
+//     const fruit = ["banana", "orange", "apple", "kiwi", "pear", "peach"]
 
-    var arr = []
-    for (i = 0; i < fruit.length; i += 2) {
-    arr.push(fruit[i])
-    }
-    console.log(arr)
-//    to push every other fruit in an array
+//     var arr = []
+//     for (i = 0; i < fruit.length; i += 2) {   //to push every other fruit in an array
+//     arr.push(fruit[i])
+//     }
+//     console.log(arr)
+
+
+
+// Silver Medal
+//1. Write a loop that will print out all the names of the people of the people array
+
+
+
+//2. Write a loop that pushes the names into a `names` array, and the occupations into an `occupations` array.
+
+
+
+//3. Write a loop that pushes every other name to an array starting with the first person, in this case "Harrison Ford", and every other occupation to *another* array starting with, in this case, "Singer".
+
+
+
+//Think about what good names for the arrays would be. Since it will be an array of each name or occupation, the plurals of name and occupation would be appropriate.
