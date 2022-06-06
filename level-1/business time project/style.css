@@ -1,0 +1,30 @@
+* {
+    margin: 0 10px;
+    background-color: antiquewhite;
+    padding: 0;
+}
+
+#title {
+    text-align: center;
+    background-color: lightskyblue;
+    font-size: 200px;
+    font-style: oblique;
+    height: 200px;
+    display: fixed;
+    padding-bottom: 30px;
+}
+
+#introduction {
+    text-align: center;
+    font-size: 25px;
+    margin: 0 350px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#pictures {
+    border: 4px solid black;
+    display: flex;
+    height: 500px;
+    width: fit-content;
+}
