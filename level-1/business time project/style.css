@@ -1,30 +1,46 @@
 * {
-    margin: 0 10px;
-    background-color: antiquewhite;
+    margin: 0;
+    background-color: rgb(249, 220, 237);
     padding: 0;
 }
 
 #title {
     text-align: center;
     background-color: lightskyblue;
-    font-size: 200px;
+    font-size: 100px;
+    margin: auto;
     font-style: oblique;
-    height: 200px;
-    display: fixed;
-    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
 }
 
 #introduction {
     text-align: center;
     font-size: 25px;
-    margin: 0 350px;
+    margin: auto;
     padding-bottom: 10px;
-    padding-top: 10px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    display: flex;
+    justify-content: center;
 }
 
 #pictures {
-    border: 4px solid black;
     display: flex;
-    height: 500px;
-    width: fit-content;
+    height: 70%;
+    width: 70%;
+    flex-direction: column;
+    margin: auto;
+}
+
+#pic1{
+    padding: 20px 20px 20px 20px;
+}
+
+#pic2 {
+    padding: 20px 20px 20px 20px;
+}
+
+#pic3 {
+    padding: 20px 20px 20px 20px;
 }
