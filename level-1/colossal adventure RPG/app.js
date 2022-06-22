@@ -92,7 +92,8 @@ while (true, player.hp > 0 && farmEnemy.hitPoints > 0) {
             console.log("\nYou killed the " + farmEnemy.type);
             upgrade = genNumInRange(20, 40);
             player.hp += upgrade;
-            console.log("\nYou now have " + player.hp + " hp.");
+            console.log("You gained " + upgrade + "hp")
+            console.log("\nYou now have " + player.hp + " hp and " + "a Rusty Key.");
             break;
         }
 
@@ -130,7 +131,6 @@ if (player.hp < 0) {
 console.log("\nThe " + farmEnemy.type + " has killed you.")
 console.log("\nFarmer " + playerName + " you have died 🪦 ." + " Your adventure in the ☠️Cursed ☠️ Farm☠️ is over...")
 break
-
 
 }
 } else if (input == "print") {
