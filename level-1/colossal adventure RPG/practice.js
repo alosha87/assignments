@@ -23,13 +23,13 @@ let enemy = function (type, hitPoints) {
     this.type = type
     this.hitPoints = hitPoints
     this.printEnemy = function () {
-        console.log("\nOh no! You encounter " + this.type + " and it has " + this.hitPoints + " hp.")
+        console.log("\nOh no! You encounter the " + this.type + " and it has " + this.hitPoints + " hp.")
     }
 }
 
 
 let enemies = function () {
-    enemyType = ['a 🚜 Possessed Tractor', ' an 🐓 Evil Chicken', ' a 🪴 Giant Venus-Fly-Trap'];
+    enemyType = ['🚜 Possessed Tractor', '🐓 Evil Chicken', '🪴 Giant Venus-Fly-Trap'];
     randomEnemy = enemyType[genNumInRange(0, enemyType.length)];
     randomHitpoints = 0;
     if (randomEnemy === "🚜 Possessed Tractor") {
@@ -45,14 +45,14 @@ let enemies = function () {
 
 
 //1. Console must greet player with a fun message
-console.log('\nWelcome to Colossal Adventure RPG' + '! ')
+console.log('\nWelcome to Colossal Adventure RPG' + '! \n')
 
 //2. Console must ask for the player's name and store it
-playerName = readlineSync.question('\nMay I have your name? ');
-console.log('\nHi Farmer ' + playerName + '!\n' + '\nI hope you are brave enough to continue...\n');
+playerName = readlineSync.question('\nMay I have your name? \n');
+console.log('\nHi Farmer ' + playerName + '!\n' + 'I hope you are brave enough to continue...\n');
 player = new playerStatus(playerName);
 
-console.log('\nYou are in a Cursed ☠️ Farm full of farm-monsters. You only have 100hp. There are two weapons: a Hoe and a Shovel. You can only choose one. ')
+console.log('\nYou are in a Cursed☠️Farm full of monsters. You only have 100hp. There are two weapons: a Hoe and a Shovel. You can only choose one to start this Cursed Farm Adventure. ')
 
 //Choosing a weapon
 const weapon = readlineSync.question("\nWhich weapon would you like to use? Type (h) for Hoe, (s) for Shovel': ");
