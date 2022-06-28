@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Form</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <form name="travelForm">
+        
+        <h1 name="info">Traveler's Personal Information</h1>
+            <input id="firstName" type="text" placeholder="First Name" name="firstName" required/> 
+            <br>
+            <input id="lastName" type="text" placeholder="Last Name" name="lastName" required/>
+            <br>
+            <input id="age" type="number" placeholder="Age" name="age" required/> 
+            <br><br>
+            <input  type="radio" name="gender" value="Female"/> Female
+            <input  type="radio" name="gender" value="Male"/> Male
+       
+        
+            <p name="citiesForm">Traveling to:</p>
+            <select name="city">
+                <option value="empty"></option>
+                <option value="Dothan">Dothan</option>
+                <option value="New York City">New York City</option>
+                <option value="Las Vegas">San Antonio</option>
+            </select>
+
+
+            <p name="dietForm">Diet Restriction: (Select all that apply)</p>
+            <input type="checkbox" name="diet" value="Vegetarian"/>Vegetarian
+            <br>
+            <input type="checkbox" name="diet" value="Gluten-Free"/>Gluten-Free
+            <br>
+            <input type="checkbox" name="diet" value="Lactose-Free"/>Lactose-Free
+        
+            <br><br>
+        <button>Submit</button>
+
+    </form> 
+
+    
+
+    <script src="app.js"></script>
+
+</body>
+   
+</html>
