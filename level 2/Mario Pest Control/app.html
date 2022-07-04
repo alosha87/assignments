@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario Pest Control</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+
+    <div id="header">
+        <h1>Mario Pest Control</h1>
+        <h2>It's Mario Time!</h2>
+
+        <img id="marioPic"
+            img srcset="https://cdn.vox-cdn.com/thumbor/cGgBkBcUgx6j4bqENYZwyEeGjT4=/0x0:4720x2500/320x213/filters:focal(1983x873:2737x1627)/cdn.vox-cdn.com/uploads/chorus_image/image/56481507/MRKB_Posing_FullTeam_E3_170612_215pm_1497264698.0.png 320w, https://cdn.vox-cdn.com/thumbor/e3GgiA15ZCNX5qgWuSVEdRvBwr0=/0x0:4720x2500/620x413/filters:focal(1983x873:2737x1627)/cdn.vox-cdn.com/uploads/chorus_image/image/56481507/MRKB_Posing_FullTeam_E3_170612_215pm_1497264698.0.png 620w, https://cdn.vox-cdn.com/thumbor/FjulxLWs73kCJCjbvtondbu_KLg=/0x0:4720x2500/920x613/filters:focal(1983x873:2737x1627)/cdn.vox-cdn.com/uploads/chorus_image/image/56481507/MRKB_Posing_FullTeam_E3_170612_215pm_1497264698.0.png 920w, https://cdn.vox-cdn.com/thumbor/sAR0TAzmyCAb1L-Da_jreK52FFc=/0x0:4720x2500/1220x813/filters:focal(1983x873:2737x1627)/cdn.vox-cdn.com/uploads/chorus_image/image/56481507/MRKB_Posing_FullTeam_E3_170612_215pm_1497264698.0.png 1220w, https://cdn.vox-cdn.com/thumbor/mocCvcfKRJlWUjOv8Hc9T10ECKg=/0x0:4720x2500/1520x1013/filters:focal(1983x873:2737x1627)/cdn.vox-cdn.com/uploads/chorus_image/image/56481507/MRKB_Posing_FullTeam_E3_170612_215pm_1497264698.0.png 1520w, https://cdn.vox-cdn.com/thumbor/MnDXXYQ2tQTzWeclHPH9Cyt8seo=/0x0:4720x2500/1820x1213/filters:focal(1983x873:2737x1627)/cdn.vox-cdn.com/uploads/chorus_image/image/56481507/MRKB_Posing_FullTeam_E3_170612_215pm_1497264698.0.png 1820w, https://cdn.vox-cdn.com/thumbor/ZOHnpSmWAeHZjcc4BZgj-TZQIIM=/0x0:4720x2500/2120x1413/filters:focal(1983x873:2737x1627)/cdn.vox-cdn.com/uploads/chorus_image/image/56481507/MRKB_Posing_FullTeam_E3_170612_215pm_1497264698.0.png 2120w, https://cdn.vox-cdn.com/thumbor/wrIREtGMZD8821vY_Na7xGlYyVQ=/0x0:4720x2500/2420x1613/filters:focal(1983x873:2737x1627)/cdn.vox-cdn.com/uploads/chorus_image/image/56481507/MRKB_Posing_FullTeam_E3_170612_215pm_1497264698.0.png 2420w" sizes="(min-width: 1221px) 846px, (min-width: 880px) calc(100vw - 334px), 100vw" alt="" data-upload-width="4720" src="https://cdn.vox-cdn.com/thumbor/yHfoo-IMefN1eEx2bSTI28o650c=/0x0:4720x2500/1200x800/filters:focal(1983x873:2737x1627)/cdn.vox-cdn.com/uploads/chorus_image/image/56481507/MRKB_Posing_FullTeam_E3_170612_215pm_1497264698.0.png"
+            style="width:500px;height:300px;">
+    </div>
+    <div id="container">
+        <form name="pestControl">
+            
+
+                
+                    
+                    Goombas: 5 coins
+                    <br><br>
+                    <img src="https://mario.wiki.gallery/images/3/3a/Goomba_vector_art.svg"
+                        style="width:130px;height:130px;">
+                    <br>
+                    <input type="number" name="goomba" id="goombaPest" placeholder="qty">
+                
+
+
+                <br><br>
+
+
+                
+                    Bob-ombs: 7 coins
+                    <br><br>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs-MIJCzKveEvJMaIEOJuEsqQfEnQ1NtHgIg&usqp=CAU"
+                        style="width:130px;height:150px;"> 
+                     <br>
+                    <input type="number" name="bombomb" id="bombPest" placeholder="qty">
+                
+
+                <br><br>
+
+                
+                    Cheep-cheeps: 11 coins
+                    <br><br>
+                    <img src="https://mario.wiki.gallery/images/e/e8/Legendary_Cheep_Cheep_PMTOK_sprite.png"
+                        style="width:130px;height:130px;">
+                    <br>
+                    
+                    <input type="number" name="cheepcheep" id="cheepPest" placeholder="qty">
+                
+
+                <br><br>
+            
+            <button type="submit" id="button">Final Price</button>
+            <h1 style="font-size: 30px" id="total"></h1>
+
+        </form>
+    </div>
+
+    <footer id="footer">mariopestcontrol@wekillit.com&emsp;&emsp;
+        www.mariopestcontrol.com&emsp;&emsp;
+        1309 Super Mario Ave.
+        Super Mario World, Nintendo 01985
+    </footer>
+    <script src="app.js"></script>
+</body>
+
+</html>
