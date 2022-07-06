@@ -2,3 +2,43 @@ html, body {
     text-align: center;
     background-color: lightskyblue;
 }
+
+#header {
+    background-color: lightcoral;
+    margin: 0px;
+}
+
+footer {
+    background-color: lightcoral;
+    font-size: 150%;
+    margin: 0px;
+}
+
+div {
+    display: flexbox;
+    align-content: center;
+    margin: 25px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    text-align: center;
+    height: min-content;  
+    margin-top: 10%;
+    
+}
+
+button {
+    text-align: center;
+    height: min-content;
+    margin-top: 211px;
+}
+
+h3 {
+    display: flexbox;
+    bottom: auto;
+}
