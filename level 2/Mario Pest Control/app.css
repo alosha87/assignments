@@ -5,13 +5,11 @@ html, body {
 
 #header {
     background-color: lightcoral;
-    margin: 0px;
 }
 
 footer {
     background-color: lightcoral;
     font-size: 150%;
-    margin: 0px;
 }
 
 div {
