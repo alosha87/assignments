@@ -17,5 +17,4 @@ function clickCounter() { //get the document from the html
     }
   }
 
-
 // **Extra credit:** Put a countdown timer (10-30 seconds) on the page that stops the user's clicks from counting towards the total after the timer ends.
