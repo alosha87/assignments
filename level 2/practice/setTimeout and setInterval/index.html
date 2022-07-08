@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1 id="time-display"></h1>
+    </div>
+    <script>
+
+        var display = document.getElementById('time-display');
+
+        function getTime(){
+            var now = new Date();
+            var hour = now.getHours();
+            var min = now.getMinutes();
+            var sec = now.getSeconds();
+            if(hour < 10){
+                hour = `0${hour}`;
+            }
+            if(min < 10){
+                min = `0${min}`;
+            }
+            if(sec < 10){
+                sec = `0${sec}`;
+            }
+
+            display.textContent = `${hour}:${min}:${sec}`;
+        }
+
+        setInterval(getTime, 1000);
+    </script>
+</body>
