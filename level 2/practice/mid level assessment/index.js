@@ -3,7 +3,7 @@ const people = [ "John", "Adam", "Amber" ]
 
 function peopleElements(arr) {
     const result = arr.map(function(tag){
-        //return "<h1>" +  people  + "</h1>"
+        // return "<h1>" +  people  + "</h1>"
         return `<h1> ${tag} </h1>` //backticks
     })
     return result
