@@ -2,24 +2,24 @@
 //1b) Call the `sum` function inside a `try` block using `"1"` and `"2"` as arguments. Use `console.log` within a `catch` block to inform the user of the error.
 
 
-function sum(x, y){
-    if(typeof x !== 'number' || typeof y !== 'number'){
-        throw new Error ("Error! Numbers only!");         //check data types first and throw error
-    } 
-    return x + y;
-    }    
+// function sum(x, y){
+//     if(typeof x !== 'number' || typeof y !== 'number'){
+//         throw new Error ("Error! Numbers only!");         //check data types first and throw error
+//     } 
+//     return x + y;
+//     }    
 
-    try {
-        sum("1", "2")
-    }    
+//     try {
+//         sum("1", "2")
+//     }    
 
-    catch(err){
-        console.log(err)        
-    }
+//     catch(err){
+//         console.log(err)        
+//     }
 
-    finally {
-        console.log("Run no matter what!")
-    }
+//     finally {
+//         console.log("Run no matter what!")
+//     }
 
 
   
