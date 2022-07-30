@@ -17,8 +17,124 @@ You get to choose which properties change, but try to vary it between each box. 
 
 **ALSO**, you must make each box smoothly transition from one style to another. (This is a CSS transitions practice, after all).
 
-### **Extra Credit**
-
-Learn about the HTML5 `<audio>` tag and insert some music to play in the background. It's just like you're in the club!
-
 Have fun, and experiment with CSS transitions! */
+
+
+
+
+
+
+/* ### **Extra Credit**
+
+Learn about the HTML5 `<audio>` tag and insert some music to play in the background. It's just like you're in the club! */
+
+
+* {
+    text-align: center;
+    transition-property: background-color;
+    transition-timing-function: ease-in;
+    animation-duration: 5ms;
+}
+
+div {
+   display: inline-flex;
+   align-items: center;
+   justify-content: center;
+   font-size: larger;
+}
+
+
+#box1 {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    background-color: lightblue;
+}
+
+#box1:hover {
+    background-color: red;
+    border-radius: 10%;
+    border-style: dashed;
+    border-color: yellow;
+    border-width: 5px;
+    height: 50px;
+}
+
+
+#box2 {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    background-color: rgb(10, 124, 237);
+}
+
+#box2:hover{
+    background-color: hotpink;  
+    border-radius: 10%; 
+    border-style: dotted;
+    border-color: purple;
+    border-width: 5px;
+    width: 100px;
+}
+
+
+#box3 {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    background-color: lightpink;
+}
+
+#box3:hover {
+    background-color: rgb(240, 12, 202);
+    border-radius: 10%; 
+    border-style: double;
+    border-color: rgb(250, 247, 250);
+    border-width: 5px;
+
+}
+
+#box4 {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    background-color: lightskyblue;
+}
+
+#box4:hover {
+    background-color: rgb(255, 164, 99);
+    border-radius: 90%; 
+    border-style: solid;
+    border-color: rgb(231, 247, 5);
+    border-width: 5px;
+}
+
+#box5 {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    background-color: lightgreen;
+}
+
+#box5:hover {
+    background-color: yellow;
+    border-radius: 10%; 
+    border-style: inset;
+    border-color: rgb(0, 12, 250);
+    border-width: 5px;
+}
+
+#box6 {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    background-color: lightseagreen;
+}
+
+#box6:hover {
+    background-color: orange;
+    border-radius: 10%; 
+    border-style: outset;
+    border-color: rgb(5, 247, 17);
+    border-width: 5px;
+}
